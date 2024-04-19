@@ -4,7 +4,7 @@ window.onload = function () {
   const div = document.createElement("div");
   div.setAttribute("aria-label", "CR3ST Digital Agency footer badge");
   div.style.background = "#202020";
-  div.style.maxHeight = "60px";
+  div.style.maxHeight = "100px";
   div.style.padding = "15px 20px";
   div.style.display = "flex";
   div.style.justifyContent = "center";
