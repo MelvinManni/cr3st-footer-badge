@@ -21,7 +21,7 @@ window.onload = function () {
   a.style.padding = "0";
   a.href = "https://www.cr3st.com";
   a.target = "_blank";
-  a.innerText = "Designed and developed by ";
+  a.innerText = "Design and development by ";
   const span = document.createElement("span");
   span.style.backgroundImage = "linear-gradient(84deg, #2a04e5 -1.66%, #ff38d7 43.95%, #ffbc7b 88.88%)";
   span.style.webkitBackgroundClip = "text";
@@ -32,7 +32,6 @@ window.onload = function () {
   span.style.fontSize = "20px";
   span.innerText = "CR3ST";
   a.appendChild(span);
-  a.innerHTML += " Digital Agency";
   div.appendChild(a);
   wrapper.innerHTML = `
   <style>
